@@ -13,3 +13,9 @@ python compile.py build_ext --inplace
 The yellow lines in the html file show  Python interaction, yellow = more
 command: 
 cython -a example_cy.pyx
+
+## Use pyximport instead of recompiling everytime
+To use cython just as you would python
+check file pyx_import_test.py
+in that file we start pyximport, it checks for changes to our cython file
+then recompiles automatically if there is any changes
