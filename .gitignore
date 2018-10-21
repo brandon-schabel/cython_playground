@@ -1,0 +1,8 @@
+/build
+*.c
+*.*.so
+*.so
+/.vscode
+*.html
+**/__pycache__
+*.pyc
